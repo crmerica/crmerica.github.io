@@ -6,9 +6,9 @@ if (answerBot) {
     };
 
     answerBot.prototype.keywords = [
-        { "keys": ["hi"], "value": 0 },
-		{ "keys": ["hello"], "value": 0 },
-		{ "keys": ["life", "universe", "everything"], "value": 1 },
+        { "keys": ["hei"], "value": 0 },
+		{ "keys": ["hei"], "value": 0 },
+		{ "keys": ["crm", "mergaus", "mergaaminen"], "value": 1 },
 		{ "keys": ["software", "development"], "value": 2 },
 		{ "keys": ["software", "engineering"], "value": 2 },
 		{ "keys": ["software", "sales"], "value": 3 },
