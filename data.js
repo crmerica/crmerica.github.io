@@ -1,14 +1,14 @@
 ﻿if (answerBot) {
     answerBot.prototype.specialContext = {
-        "wrongInput": ["I don't understand you.", "Could you rephrase the question?"],
+        "wrongInput": ["Anteeksi, en ymmärtänyt kysymystä.", "Voisitko toistaa kysymyksen?"],
         "emptyInput": ["Please say something", "Speak louder", "Well i can't read minds."],
-        "rephrase": ["Can you tell me if your question was about one of the following things:"]
+        "rephrase": ["Koskiko kysymyksesi jotain seuraavista asioista:"]
     };
 
     answerBot.prototype.keywords = [
-        { "keys": ["hi"], "value": 0 },
-        { "keys": ["hello"], "value": 0 },
-        { "keys": ["life", "universe", "everything"], "value": 1 },
+        { "keys": ["hei"], "value": 0 },
+        { "keys": ["päivää"], "value": 0 },
+        { "keys": ["crm", "mergaus", "mergaaminen"], "value": 1 },
         { "keys": ["software", "development"], "value": 2 },
         { "keys": ["software", "engineering"], "value": 2 },
         { "keys": ["who", "made", "you"], "value": 3 },
@@ -27,12 +27,12 @@
 
     answerBot.prototype.answers = [
         {
-            "description": "Hi!",
-            "values": ["Hello there!", "Hi how can I help you today", "Hi! What brings you here?"]
+            "description": "Hei!",
+            "values": ["Hei, kuinka voin auttaa"]
         },
         {
             "description": "What is the answer to life the universe and everything?",
-            "values": ["42"]
+            "values": ["Vastaus kysymykseen loytyy täältä "]
         },
         {
             "description": "What is software development?",
