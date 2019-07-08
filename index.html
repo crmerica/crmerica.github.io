@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--Read the source Luke!-->
+    <title>Answer bot</title>
+    <style type="text/css">
+        body, html
+        {
+            height: 100%;
+        }
+        .wrap
+        {
+            height: 80%;
+            overflow: auto;
+            max-height: 80%;
+            display: block;
+        }
+        .content
+        {
+            height: 100%;
+            display: table;
+            vertical-align: bottom;
+        }
+        .subcontent
+        {
+            display: table-cell;
+            vertical-align: bottom;
+        }
+        .answerbot-input
+        {
+            color: #1AA1E1;
+        }
+        .answerbot-ai
+        {
+            color: #CE5043;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 800px; height: 100%; margin: 0 auto;">
+        <div id="wrap" class="wrap">
+            <div class="content">
+                <div class="subcontent" id='subcontent'>
+                    <p class='answerbot-ai'>
+                        Don't be afraid, talk to me.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <input type="text" name="inputtext" style="width: 100%;" onkeyup="keypressInput(this, event);"><br />
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript">
+        var _answerBot = new answerBot();
+        function keypressInput(sender, event) {
+            if (event.which == 13) {
+                document.getElementById('subcontent').innerHTML += _answerBot.processInput(sender.value);
+                sender.value = '';
+                correctScroll("wrap");
+            }
+        }
+
+        function correctScroll(elementId) {
+            var objDiv = document.getElementById(elementId);
+            objDiv.scrollTop = objDiv.scrollHeight;
+        }
+    </script>
+</body>
+</html>
