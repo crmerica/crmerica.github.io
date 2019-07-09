@@ -1,1 +1,15 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRM ohjeet</title>
+    <style type="text/css">
+</head>
+<body>
+    <body style="background-color:#C0D7EF;">
+    <h1 align="center"><font face="palatino" color="#566D7E">CRM ohjeet -dokumentti</font></h1>
+    <p align="center"><font face="palatino" size="3 colorcolor="#E5E4E2">Hei! Tervetuloa CRM uudistuneelle ohjesivustolle.</font></p>
+    <hr>
+    <h2 align="center"><font face="palatino" color="#566D7E">CRM -kysymysbotti</font></h1>
+    <p align="center"><font face="palatino" size="3 color="#E5E4E2">Tästä klikkaamalla pääset lukemaan ohjeet kokonaisuudessaan.</font></p>
+</body>
+</html>
