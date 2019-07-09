@@ -1,13 +1,13 @@
 if (answerBot) {
     answerBot.prototype.specialContext = {
-        "wrongInput": ["I don't understand you.", "Could you rephrase the question?"],
-        "emptyInput": ["Please say something", "Speak louder", "Well i can't read minds."],
-        "rephrase": ["Can you tell me if your question was about one of the following things:"]
+        "wrongInput": ["En ymmärtänyt kysymystä.", "Voisitko muotoilla kysymyksen uudelleen?"],
+        "emptyInput": ["Vain kysymällä selviää!", "Kysy rohkeasti.", "Mitä haluat tietää CRM?."],
+        "rephrase": ["Tässä on muutamia avainsanoja, jotka voivat auttaa sinua / kontakti, account, mergaaminen, lahjoittaja, tiedonhaku, erikoishaku"]
     };
 
     answerBot.prototype.keywords = [
-        { "keys": ["hi"], "value": 0 },
-        { "keys": ["hello"], "value": 0 },
+        { "keys": ["hei"], "value": 0 },
+        { "keys": ["päivää"], "value": 0 },
         { "keys": ["life", "universe", "everything"], "value": 1 },
         { "keys": ["software", "development"], "value": 2 },
         { "keys": ["software", "engineering"], "value": 2 },
@@ -27,32 +27,32 @@ if (answerBot) {
 
     answerBot.prototype.answers = [
         {
-            "description": "Hi!",
-            "values": ["Hello there!", "Hi how can I help you today", "Hi! What brings you here?"]
+            "description": "Hei!",
+            "values": ["Hei!", "Hei, kuinka voin auttaa tänään", "Hei! Mikä mieltäsi askarruttaa CRM liittyen?"]
         },
         {
-            "description": "What is the answer to life the universe and everything?",
-            "values": ["42"]
+            "description": "Account",
+            "values": ["Account on..."]
         },
         {
-            "description": "What is software development?",
-            "values": ["Programming! Do you speak it?"]
+            "description": "Kontakti",
+            "values": ["Kontakti tarkoittaa..."]
         },
         {
-            "description": "Who created me?",
-            "values": ["I was created by another <a href='http://about.me/deni' target='_blank'>bot</a>.", "The question is who sent you here?"]
+            "description": "Mergaus",
+            "values": ["Mergaus tarkoittaa..."]
         },
         {
-            "description": "Is this real life?",
-            "values": ["No this is the internetz!", "Find out <a href='http://www.youtube.com/watch?v=txqiwrbYGrs' target='_blank'>yourself</a>!"]
+            "description": "Duplikaatti",
+            "values": ["Duplikaatti tarkoittaa..."]
         },
         {
-            "description": "Who is Deni?",
-            "values": ["This is his <a href='https://plus.google.com/+DeniSpasovski/' target='_blank'>G+ profile</a>.", "This is his <a href='www.linkedin.com/in/denispasovski' target='_blank'>Linkedin profile</a>."]
+            "description": "Tiedonhaku",
+            "values": ["Tiedonhaku tarkoittaa..."]
         },
         {
-            "description": "Where is your source?",
-            "values": ["Here is the <a href='https://github.com/denimf/Answer-bot' target='_blank'>source</a>."]
+            "description": "Erikoishaku",
+            "values": ["Erikoishaku tarkoittaa..."]
         },
         {
             "description": "How are you?",
