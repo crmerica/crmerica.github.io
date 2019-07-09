@@ -53,10 +53,10 @@
     <script type="text/javascript" src="scripts.js"></script>
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript">
-        var _CRMBot = new CRMBot();
+        var _CRMBot = new CRMbot();
         function keypressInput(sender, event) {
             if (event.which == 13) {
-                document.getElementById('subcontent').innerHTML += _CRMBot.processInput(sender.value);
+                document.getElementById('subcontent').innerHTML += _CRMbot.processInput(sender.value);
                 sender.value = '';
                 correctScroll("wrap");
             }
