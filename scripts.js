@@ -1,8 +1,8 @@
-var CRMBot = function () {
+var answerBot = function () {
     var _this = this;
     _this.processInput = function (text) {
 		updateUrl(text);
-        var _result = "<p class='crmbot-input'>" + text + "</p>";
+        var _result = "<p class='answerbot-input'>" + text + "</p>";
         text = text.replace(new RegExp("[^a-zA-Z ]", "g"), " ");
         text = text.replace(new RegExp("[ ]{2,}", "g"), " ");
         var _words = text.toLowerCase().split(" ");
@@ -36,7 +36,7 @@ var CRMBot = function () {
     };
 
     function formatText(text, title) {
-        return "<p class=\'crmbot-ai\' title=\'" + title + "\'>" + text + "</p>";
+        return "<p class=\'answerbot-ai\' title=\'" + title + "\'>" + text + "</p>";
     }
 
     function findMatches(words) {
