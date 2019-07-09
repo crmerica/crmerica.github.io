@@ -1,5 +1,4 @@
-/* AnswerBot is a stupid bot created by Deni Spasovski */
-var answerBot = function () {
+var CRMBot = function () {
     var _this = this;
     _this.processInput = function (text) {
 		updateUrl(text);
