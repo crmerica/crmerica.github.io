@@ -26,8 +26,7 @@ if (CRMBot) {
 		{
 			"description": "Miten saan lisätietoa",
 			"values": ["Saat lisätietoa selaamalla Ohjeita."]
-		},
-		{
+		}
 
 	];
 }
