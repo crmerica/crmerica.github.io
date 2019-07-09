@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <!--Read the source Luke!-->
     <title>CRM ohjeet</title>
     <style type="text/css">
         body, html
@@ -26,11 +25,11 @@
             display: table-cell;
             vertical-align: bottom;
         }
-        .answerbot-input
+        .CRMBot-input
         {
             color: #36CFCE;
         }
-        .answerbot-ai
+        .CRMBot-ai
         {
             color: #366B6B;
         }
@@ -41,7 +40,7 @@
         <div id="wrap" class="wrap">
             <div class="content">
                 <div class="subcontent" id='subcontent'>
-                    <p class='answerbot-ai'>
+                    <p class='CRMBot-ai'>
                         Kysy CRM botilta!
                     </p>
                 </div>
@@ -54,10 +53,10 @@
     <script type="text/javascript" src="scripts.js"></script>
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript">
-        var _answerBot = new answerBot();
+        var _CRMBot = new CRMBot();
         function keypressInput(sender, event) {
             if (event.which == 13) {
-                document.getElementById('subcontent').innerHTML += _answerBot.processInput(sender.value);
+                document.getElementById('subcontent').innerHTML += _CRMBot.processInput(sender.value);
                 sender.value = '';
                 correctScroll("wrap");
             }
