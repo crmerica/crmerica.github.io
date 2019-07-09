@@ -1,8 +1,8 @@
 if (answerBot) {
     answerBot.prototype.specialContext = {
-        "wrongInput": ["I don't understand you.", "Could you rephrase the question?"],
-        "emptyInput": ["Please say something", "Speak louder", "Well i can't read minds."],
-        "rephrase": ["Can you tell me if your question was about one of the following things:"]
+        "wrongInput": ["En ymmärtänyt kysymystä.", "Voisitko muotoilla kysymyksen uudelleen?"],
+        "emptyInput": ["Vain kysymällä selviää!", "Kysy rohkeasti.", "Mitä haluat tietää CRM?."],
+        "rephrase": ["Tässä on muutamia avainsanoja, jotka voivat auttaa sinua / kontakti, account, mergaaminen, lahjoittaja, tiedonhaku, erikoishaku"]
     };
 
     answerBot.prototype.keywords = [
@@ -16,20 +16,20 @@ if (answerBot) {
 
     answerBot.prototype.answers = [
 		{
-			"description": "Did you mean hello?",
-			"values": ["I'm good how are you?", "Hi how can I help you today?"]
+			"description": "Tarkoititko hei?",
+			"values": ["Minulle kuuluu hyvää, mitä haluat tietää CRM liittyen?", "Hei, kuinka voisin auttaa sinua?"]
 		},
 		{
-			"description": "The answer to life the universe and everything?",
-			"values": ["42!"]
+			"description": "Kuinka pääsen CRM?",
+			"values": ["Osoitteesta *osoite*"]
 		},
 		{
-			"description": "What is software development?",
-			"values": ["Programming! Do you speak it?"]
+			"description": "Mikä on CRM?",
+			"values": ["CRM on..."]
 		},
 		{
-			"description": "What is sales?",
-			"values": ["Cashing out!"]
+			"description": "Mikä on kontakti?",
+			"values": ["Kontakti on..."]
 		}
 	];
 }
