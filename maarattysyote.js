@@ -24,12 +24,10 @@ if (CRMBot) {
 			"values": ["42!"]
 		},
 		{
-			"description": "What is software development?",
-			"values": ["Programming! Do you speak it?"]
+			"description": "Miten saan lisätietoa",
+			"values": ["Saat lisätietoa selaamalla Ohjeita."]
 		},
 		{
-			"description": "What is sales?",
-			"values": ["Cashing out!"]
-		}
+
 	];
 }
