@@ -40,7 +40,7 @@
         <div id="wrap" class="wrap">
             <div class="content">
                 <div class="subcontent" id='subcontent'>
-                    <p class='CRMBot-ai'>
+                    <p class='crmbot-ai'>
                         Kysy CRM botilta!
                     </p>
                 </div>
@@ -53,7 +53,7 @@
     <script type="text/javascript" src="scripti.js"></script>
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript">
-        var _CRMBot = new CRMbot();
+        var _CRMbot = new CRMbot();
         function keypressInput(sender, event) {
             if (event.which == 13) {
                 document.getElementById('subcontent').innerHTML += _CRMbot.processInput(sender.value);
