@@ -25,8 +25,7 @@
         {
             "description": "Kuinka selaan CRM?",
             "values": [" "]
-        },
-        {
+        }
 
         ];
 }
