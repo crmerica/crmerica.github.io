@@ -6,13 +6,13 @@ if (answerBot) {
     };
 
     answerBot.prototype.keywords = [
-        { "keys": ["hi"], "value": 0 },
-		{ "keys": ["hello"], "value": 0 },
-		{ "keys": ["life", "universe", "everything"], "value": 1 },
-		{ "keys": ["software", "development"], "value": 2 },
-		{ "keys": ["software", "engineering"], "value": 2 },
-		{ "keys": ["software", "sales"], "value": 3 },
-		{ "keys": ["whatever", "sales"], "value": 3 }];
+	{ "keys": ["hei"], "value": 0 },
+        { "keys": ["päivää"], "value": 0 },
+        { "keys": ["mitä", "tarkoittaa", "account"], "value": 1 },
+        { "keys": ["mikä", "contact", "kontakti"], "value": 2 },
+        { "keys": ["mitä", "tarkoittaa"], "value": 2 },
+        { "keys": ["mergaus", "mergaaminen", "merge"], "value": 3 },
+
 
     answerBot.prototype.answers = [
 		{
