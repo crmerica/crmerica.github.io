@@ -7,7 +7,6 @@ if (answerBot) {
 
     answerBot.prototype.keywords = [
         { "keys": ["hei"], "value": 0 },
-        { "keys": ["päivää"], "value": 0 },
         { "keys": ["account"], "value": 1 },
         { "keys": ["kontakti"], "value": 2 },
 	{ "keys": ["contact"], "value": 2 },
@@ -22,7 +21,7 @@ if (answerBot) {
         { "keys": ["advanced find"], "value": 6 },
         { "keys": ["miten", "käytän", "erikoishakua"], "value": 6 },
         { "keys": ["lahjoittaja"], "value": 7 },
-	{ "keys": ["dashboard"], "value": 9 }];
+	{ "keys": ["dashboard"], "value": 9 };
 	{ "keys": ["kuka", "tämä", "on"], "value": 9 }];
 
     answerBot.prototype.answers = [
