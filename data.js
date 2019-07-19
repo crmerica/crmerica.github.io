@@ -21,7 +21,7 @@ if (answerBot) {
         { "keys": ["mikä", "on", "advanced search"], "value": 6 },
         { "keys": ["miten", "käytän", "erikoishakua"], "value": 6 },
         { "keys": ["mikä", "on", "lahjoittaja"], "value": 7 },
-	    { "keys": ["who", "is", "this"], "value": 8 }];
+	    { "keys": ["kuka", "mikä", "tämä", "on"], "value": 8 }];
 
     answerBot.prototype.answers = [
         {
