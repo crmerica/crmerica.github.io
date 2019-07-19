@@ -21,8 +21,7 @@ if (answerBot) {
         { "keys": ["advanced find"], "value": 6 },
         { "keys": ["miten", "käytän", "erikoishakua"], "value": 6 },
         { "keys": ["lahjoittaja"], "value": 7 },
-	{ "keys": ["dashboard"], "value": 8 };
-	{ "keys": ["kuka", "tämä", "on"], "value": 9 }];
+	{ "keys": ["dashboard"], "value": 8 }];
 
     answerBot.prototype.answers = [
         {
@@ -60,11 +59,6 @@ if (answerBot) {
         {
             "description": "dashboard",
             "values": ["Dashboard on..."]
-        },
-       
-        {
-            "description": "Kenelle puhun?",
-            "values": ["Puhut CRM botille!"]
         }
         ];
 }
