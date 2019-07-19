@@ -57,7 +57,7 @@ if (answerBot) {
             "values": ["Lahjoittaja on..."]
         },
         {
-            "description": "dashboard",
+            "description": "Dashboard",
             "values": ["Dashboard on..."]
         }
         ];
