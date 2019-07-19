@@ -2,7 +2,7 @@ if (answerBot) {
     answerBot.prototype.specialContext = {
         "wrongInput": ["En ymmärtänyt kysymystä.", "Voisitko muotoilla kysymyksen uudelleen?"],
         "emptyInput": ["Vain kysymällä selviää!", "Kysy rohkeasti.", "Mitä haluat tietää CRM?."],
-        "rephrase": ["Tässä on muutamia avainsanoja, jotka voivat auttaa sinua / kontakti, account, mergaaminen, lahjoittaja, tiedonhaku, erikoishaku"]
+        "rephrase": ["Tässä on muutamia avainsanoja, jotka voivat auttaa sinua / kontakti, account, mergaus, dashboard, lahjoittaja, tiedonhaku, erikoishaku"]
     };
 
     answerBot.prototype.keywords = [
@@ -22,7 +22,8 @@ if (answerBot) {
         { "keys": ["advanced find"], "value": 6 },
         { "keys": ["miten", "käytän", "erikoishakua"], "value": 6 },
         { "keys": ["lahjoittaja"], "value": 7 },
-	{ "keys": ["kuka", "tämä", "on"], "value": 8 }];
+	{ "keys": ["dashboard"], "value": 9 }];
+	{ "keys": ["kuka", "tämä", "on"], "value": 9 }];
 
     answerBot.prototype.answers = [
         {
@@ -54,9 +55,14 @@ if (answerBot) {
             "values": ["Erikoishaku tarkoittaa..."]
         },
         {
-            "description": "Lahjoittaja?",
+            "description": "Lahjoittaja",
             "values": ["Lahjoittaja on..."]
         },
+        {
+            "description": "dashboard",
+            "values": ["Dashboard on..."]
+        },
+       
         {
             "description": "Kenelle puhun?",
             "values": ["Puhut CRM botille!"]
