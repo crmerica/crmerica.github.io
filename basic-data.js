@@ -8,10 +8,9 @@ if (answerBot) {
     answerBot.prototype.keywords = [
 	{ "keys": ["hei"], "value": 0 },
         { "keys": ["päivää"], "value": 0 },
-        { "keys": ["mitä", "tarkoittaa", "account"], "value": 1 },
-        { "keys": ["mikä", "contact", "kontakti"], "value": 2 },
-        { "keys": ["mitä", "tarkoittaa"], "value": 2 },
-        { "keys": ["mergaus", "mergaaminen", "merge"], "value": 3 },
+        { "keys": ["miten", "pääsen" "crm"], "value": 1 },
+        { "keys": ["mitä", "tarkoittaa", "crm"], "value": 2 },
+        { "keys": ["kontakti"], "value": 3 },
 
 
     answerBot.prototype.answers = [
