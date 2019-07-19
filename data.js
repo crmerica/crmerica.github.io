@@ -9,20 +9,20 @@ if (answerBot) {
         { "keys": ["hei"], "value": 0 },
         { "keys": ["päivää"], "value": 0 },
         { "keys": ["account"], "value": 1 },
-        { "keys": ["contact"], "value": 2 },
-	{ "keys": ["kontakti"], "value": 2 },
-        { "keys": ["mitä", "tarkoittaa"], "value": 2 },
-        { "keys": ["mergaus", "mergaaminen", "merge"], "value": 3 },
-        { "keys": ["mikä", "on", "mergaus"], "value": 3 },
-        { "keys": ["duplikaatti", "duplikaatit", "yhdistäminen"], "value": 3 },
+        { "keys": ["kontakti"], "value": 2 },
+	{ "keys": ["contact"], "value": 2 },
+        { "keys": ["mergaus"], "value": 3 },
+	{ "keys": ["mergaaminen", "merge", "mergata"], "value": 3 },
+        { "keys": ["duplikaatti"], "value": 4 },
+        { "keys": ["duplikaatit", "yhdistäminen"], "value": 4 },
         { "keys": ["mikä", "on", "duplikaatti", "CRMssä"], "value": 4 },
-        { "keys": ["miten", "haen", "tietoa"], "value": 5 },
+        { "keys": ["tiedonhaku"], "value": 5 },
         { "keys": ["miten", "loydän", "tietoa", "CRMstä"], "value": 5 },
-        { "keys": ["mikä", "on", "erikoishaku"], "value": 6 },
-        { "keys": ["mikä", "on", "advanced search"], "value": 6 },
+        { "keys": ["erikoishaku"], "value": 6 },
+        { "keys": ["advanced find"], "value": 6 },
         { "keys": ["miten", "käytän", "erikoishakua"], "value": 6 },
-        { "keys": ["mikä", "on", "lahjoittaja"], "value": 7 },
-	    { "keys": ["kuka", "mikä", "tämä", "on"], "value": 8 }];
+        { "keys": ["lahjoittaja"], "value": 7 },
+	{ "keys": ["kuka", "tämä", "on"], "value": 8 }];
 
     answerBot.prototype.answers = [
         {
